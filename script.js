@@ -37,7 +37,7 @@ function rot13(str) {
 	for(let i=0;i<str.length;i++){
 			decodedArr += lookup[str[i]];
 	}
-
+console.log(decodedArr);
   return decodedArr; //return decodedArr
 }
 
