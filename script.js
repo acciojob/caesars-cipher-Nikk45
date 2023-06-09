@@ -36,10 +36,10 @@ function rot13(str) {
   // Only change code below this line
 	for(let i=0;i<str.length;i++){
 		if(lookup[str[i]] == undefined){
-			decodedArr += str[i];
+			decodedArr.push(str[i]);
 		}
 		else{
-			decodedArr += lookup[str[i]];
+			decodedArr.push(lookup[str[i]]);
 		}
 	}
   return decodedArr.join(""); //return decodedArr
