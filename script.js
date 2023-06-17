@@ -27,4 +27,4 @@ function rot13(encodedStr) {
  console.log(rot13("SERR YBIR? NPPVBWBO"));
 
 // Do not change this line
-window.rot13 = rot13;
+module.exports = rot13;
